@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Briefcase body -->
+  <rect x="6" y="22" width="52" height="34" rx="3" stroke="#c8a96e" stroke-width="1.5"/>
+  <path d="M22 22 V16 C22 13.8 23.8 12 26 12 H38 C40.2 12 42 13.8 42 16 V22" stroke="#c8a96e" stroke-width="1.5"/>
+  <line x1="6" y1="36" x2="58" y2="36" stroke="rgba(200,169,110,0.4)" stroke-width="1.2"/>
+  <!-- Chart bars inside -->
+  <rect x="18" y="40" width="4" height="10" rx="1" fill="rgba(200,169,110,0.6)"/>
+  <rect x="26" y="36" width="4" height="14" rx="1" fill="rgba(200,169,110,0.8)"/>
+  <rect x="34" y="38" width="4" height="12" rx="1" fill="rgba(200,169,110,0.5)"/>
+  <rect x="42" y="34" width="4" height="16" rx="1" fill="#c8a96e"/>
+  <!-- Handshake line -->
+  <line x1="30" y1="22" x2="34" y2="22" stroke="#c8a96e" stroke-width="2" stroke-linecap="round"/>
+</svg>

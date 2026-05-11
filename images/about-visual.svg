@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 560" fill="none">
+  <defs>
+    <radialGradient id="aGold" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="rgba(200,169,110,0.15)"/>
+      <stop offset="100%" stop-color="rgba(200,169,110,0)"/>
+    </radialGradient>
+  </defs>
+  <rect width="700" height="560" fill="#111"/>
+  <rect width="700" height="560" fill="url(#aGold)"/>
+
+  <!-- Central tech diagram -->
+  <circle cx="350" cy="280" r="200" stroke="rgba(200,169,110,0.12)" stroke-width="1" fill="none"/>
+  <circle cx="350" cy="280" r="150" stroke="rgba(200,169,110,0.1)" stroke-width="1" fill="none" stroke-dasharray="6,4"/>
+  <circle cx="350" cy="280" r="100" stroke="rgba(200,169,110,0.15)" stroke-width="1.5" fill="rgba(200,169,110,0.04)"/>
+  <circle cx="350" cy="280" r="40"  stroke="#c8a96e" stroke-width="1.5" fill="rgba(200,169,110,0.08)"/>
+  <!-- BJ center -->
+  <text x="350" y="292" text-anchor="middle" font-family="Georgia,serif" font-size="26" font-weight="700" fill="#c8a96e">BJ</text>
+
+  <!-- Orbiting nodes -->
+  <circle cx="350" cy="80"  r="8" fill="#c8a96e" opacity="0.8"/>
+  <circle cx="530" cy="180" r="6" fill="#c8a96e" opacity="0.6"/>
+  <circle cx="530" cy="380" r="6" fill="#c8a96e" opacity="0.6"/>
+  <circle cx="350" cy="480" r="8" fill="#c8a96e" opacity="0.8"/>
+  <circle cx="170" cy="380" r="6" fill="#c8a96e" opacity="0.6"/>
+  <circle cx="170" cy="180" r="6" fill="#c8a96e" opacity="0.6"/>
+
+  <!-- Labels on nodes -->
+  <text x="350" y="68"  text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="8" fill="rgba(200,169,110,0.7)" letter-spacing="1">WEB DEV</text>
+  <text x="545" y="185" text-anchor="start"  font-family="Montserrat,Arial,sans-serif" font-size="8" fill="rgba(200,169,110,0.7)" letter-spacing="1">SOFTWARE</text>
+  <text x="545" y="385" text-anchor="start"  font-family="Montserrat,Arial,sans-serif" font-size="8" fill="rgba(200,169,110,0.7)" letter-spacing="1">E-COMMERCE</text>
+  <text x="350" y="496" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="8" fill="rgba(200,169,110,0.7)" letter-spacing="1">CONSULTING</text>
+  <text x="155" y="390" text-anchor="end"    font-family="Montserrat,Arial,sans-serif" font-size="8" fill="rgba(200,169,110,0.7)" letter-spacing="1">STREAMING</text>
+  <text x="155" y="185" text-anchor="end"    font-family="Montserrat,Arial,sans-serif" font-size="8" fill="rgba(200,169,110,0.7)" letter-spacing="1">DESIGN</text>
+
+  <!-- Connection lines from center to nodes -->
+  <g stroke="rgba(200,169,110,0.2)" stroke-width="1" stroke-dasharray="4,4">
+    <line x1="350" y1="240" x2="350" y2="88"/>
+    <line x1="386" y1="262" x2="524" y2="186"/>
+    <line x1="386" y1="298" x2="524" y2="374"/>
+    <line x1="350" y1="320" x2="350" y2="472"/>
+    <line x1="314" y1="298" x2="176" y2="374"/>
+    <line x1="314" y1="262" x2="176" y2="186"/>
+  </g>
+
+  <!-- Mobile phones floating -->
+  <rect x="60"  y="240" width="60" height="100" rx="6" stroke="rgba(200,169,110,0.3)" stroke-width="1" fill="rgba(200,169,110,0.04)"/>
+  <rect x="65"  y="252" width="50" height="68"  rx="2" fill="rgba(200,169,110,0.08)"/>
+  <circle cx="90" cy="330" r="3" fill="rgba(200,169,110,0.4)"/>
+
+  <rect x="580" y="240" width="60" height="100" rx="6" stroke="rgba(200,169,110,0.3)" stroke-width="1" fill="rgba(200,169,110,0.04)"/>
+  <rect x="585" y="252" width="50" height="68"  rx="2" fill="rgba(200,169,110,0.08)"/>
+  <circle cx="610" cy="330" r="3" fill="rgba(200,169,110,0.4)"/>
+
+  <!-- Top decoration -->
+  <line x1="60" y1="20" x2="640" y2="20" stroke="rgba(200,169,110,0.15)" stroke-width="1"/>
+  <line x1="60" y1="540" x2="640" y2="540" stroke="rgba(200,169,110,0.15)" stroke-width="1"/>
+</svg>

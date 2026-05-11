@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" fill="none">
+  <rect width="700" height="400" fill="#0d0d0d"/>
+  <defs>
+    <linearGradient id="ng1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(200,169,110,0.15)"/>
+      <stop offset="100%" stop-color="rgba(200,169,110,0.02)"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="400" fill="url(#ng1)"/>
+  <!-- News icon composition -->
+  <rect x="80"  y="60" width="260" height="180" rx="6" stroke="rgba(200,169,110,0.3)" stroke-width="1" fill="rgba(200,169,110,0.04)"/>
+  <rect x="80"  y="60" width="260" height="60"  rx="6" fill="rgba(200,169,110,0.08)"/>
+  <line x1="100" y1="150" x2="320" y2="150" stroke="rgba(200,169,110,0.2)" stroke-width="1"/>
+  <line x1="100" y1="170" x2="320" y2="170" stroke="rgba(200,169,110,0.2)" stroke-width="1"/>
+  <line x1="100" y1="190" x2="280" y2="190" stroke="rgba(200,169,110,0.2)" stroke-width="1"/>
+  <line x1="100" y1="210" x2="260" y2="210" stroke="rgba(200,169,110,0.2)" stroke-width="1"/>
+  <text x="210" y="98" text-anchor="middle" font-family="Georgia,serif" font-size="12" font-weight="700" fill="rgba(200,169,110,0.7)">BINGJU NEWS</text>
+  <!-- Small articles -->
+  <rect x="360" y="60"  width="130" height="80"  rx="4" stroke="rgba(200,169,110,0.2)" stroke-width="1" fill="rgba(200,169,110,0.03)"/>
+  <rect x="500" y="60"  width="120" height="80"  rx="4" stroke="rgba(200,169,110,0.2)" stroke-width="1" fill="rgba(200,169,110,0.03)"/>
+  <rect x="360" y="155" width="260" height="85"  rx="4" stroke="rgba(200,169,110,0.2)" stroke-width="1" fill="rgba(200,169,110,0.03)"/>
+  <!-- Bottom ticker -->
+  <rect x="80" y="280" width="540" height="40" rx="4" fill="rgba(200,169,110,0.08)" stroke="rgba(200,169,110,0.2)" stroke-width="1"/>
+  <text x="350" y="306" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="9" font-weight="600" fill="rgba(200,169,110,0.6)" letter-spacing="2">LATEST NEWS · PRESS RELEASES · COMPANY UPDATES</text>
+</svg>

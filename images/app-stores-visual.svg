@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 460" fill="none">
+  <rect width="700" height="460" fill="#0f0f0f"/>
+  <!-- App Store icon -->
+  <rect x="60" y="80" width="220" height="300" rx="30" fill="rgba(200,169,110,0.06)" stroke="rgba(200,169,110,0.2)" stroke-width="1.5"/>
+  <circle cx="170" cy="200" r="60" fill="rgba(200,169,110,0.1)" stroke="#c8a96e" stroke-width="1"/>
+  <!-- Apple logo simplified -->
+  <path d="M170 170 C155 170 145 180 145 196 C145 220 163 230 170 230 C177 230 185 224 185 224 C185 224 193 230 200 228 C215 224 198 170 170 170Z" fill="#c8a96e" opacity="0.8"/>
+  <circle cx="162" cy="164" r="8" fill="rgba(200,169,110,0.6)"/>
+  <text x="170" y="300" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="11" font-weight="700" fill="rgba(200,169,110,0.8)" letter-spacing="1.5">APP STORE</text>
+  <text x="170" y="318" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="8"  fill="rgba(200,169,110,0.4)" letter-spacing="1">iOS &amp; iPadOS</text>
+
+  <!-- Google Play icon -->
+  <rect x="420" y="80" width="220" height="300" rx="30" fill="rgba(200,169,110,0.06)" stroke="rgba(200,169,110,0.2)" stroke-width="1.5"/>
+  <circle cx="530" cy="200" r="60" fill="rgba(200,169,110,0.1)" stroke="#c8a96e" stroke-width="1"/>
+  <!-- Play triangle -->
+  <path d="M508 172 L508 228 L562 200 Z" fill="#c8a96e" opacity="0.8"/>
+  <text x="530" y="300" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="11" font-weight="700" fill="rgba(200,169,110,0.8)" letter-spacing="1.5">GOOGLE PLAY</text>
+  <text x="530" y="318" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="8"  fill="rgba(200,169,110,0.4)" letter-spacing="1">Android</text>
+
+  <!-- Connecting dots -->
+  <circle cx="350" cy="230" r="4" fill="#c8a96e" opacity="0.6"/>
+  <line x1="280" y1="230" x2="346" y2="230" stroke="rgba(200,169,110,0.25)" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="354" y1="230" x2="420" y2="230" stroke="rgba(200,169,110,0.25)" stroke-width="1" stroke-dasharray="4,3"/>
+
+  <!-- Global reach icon -->
+  <text x="350" y="400" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="9" font-weight="600" fill="rgba(200,169,110,0.5)" letter-spacing="3">GLOBAL APP DISTRIBUTION</text>
+  <line x1="140" y1="415" x2="560" y2="415" stroke="rgba(200,169,110,0.15)" stroke-width="1"/>
+</svg>

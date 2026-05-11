@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="hg1" cx="30%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#1a1208" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#080808" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="hgGold" cx="70%" cy="30%" r="40%">
+      <stop offset="0%" stop-color="#c8a96e" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#c8a96e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gridLine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c8a96e" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#c8a96e" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Base -->
+  <rect width="1440" height="900" fill="url(#hg1)"/>
+  <!-- Gold glow -->
+  <rect width="1440" height="900" fill="url(#hgGold)"/>
+
+  <!-- Grid lines (vertical) -->
+  <g stroke="rgba(200,169,110,0.05)" stroke-width="1">
+    <line x1="120" y1="0" x2="120" y2="900"/>
+    <line x1="240" y1="0" x2="240" y2="900"/>
+    <line x1="360" y1="0" x2="360" y2="900"/>
+    <line x1="480" y1="0" x2="480" y2="900"/>
+    <line x1="600" y1="0" x2="600" y2="900"/>
+    <line x1="720" y1="0" x2="720" y2="900"/>
+    <line x1="840" y1="0" x2="840" y2="900"/>
+    <line x1="960" y1="0" x2="960" y2="900"/>
+    <line x1="1080" y1="0" x2="1080" y2="900"/>
+    <line x1="1200" y1="0" x2="1200" y2="900"/>
+    <line x1="1320" y1="0" x2="1320" y2="900"/>
+  </g>
+  <!-- Grid lines (horizontal) -->
+  <g stroke="rgba(200,169,110,0.04)" stroke-width="1">
+    <line x1="0" y1="90"  x2="1440" y2="90"/>
+    <line x1="0" y1="180" x2="1440" y2="180"/>
+    <line x1="0" y1="270" x2="1440" y2="270"/>
+    <line x1="0" y1="360" x2="1440" y2="360"/>
+    <line x1="0" y1="450" x2="1440" y2="450"/>
+    <line x1="0" y1="540" x2="1440" y2="540"/>
+    <line x1="0" y1="630" x2="1440" y2="630"/>
+    <line x1="0" y1="720" x2="1440" y2="720"/>
+    <line x1="0" y1="810" x2="1440" y2="810"/>
+  </g>
+
+  <!-- Abstract tech geometry -->
+  <g opacity="0.15">
+    <circle cx="980" cy="200" r="280" stroke="#c8a96e" stroke-width="1" fill="none"/>
+    <circle cx="980" cy="200" r="200" stroke="#c8a96e" stroke-width="0.8" fill="none"/>
+    <circle cx="980" cy="200" r="120" stroke="#c8a96e" stroke-width="0.6" fill="none"/>
+    <circle cx="980" cy="200" r="50"  fill="rgba(200,169,110,0.08)" stroke="#c8a96e" stroke-width="1"/>
+  </g>
+
+  <!-- Connection nodes -->
+  <g opacity="0.4">
+    <circle cx="980" cy="200" r="5" fill="#c8a96e"/>
+    <circle cx="1180" cy="350" r="3" fill="#c8a96e"/>
+    <circle cx="1100" cy="100" r="3" fill="#c8a96e"/>
+    <circle cx="800"  cy="320" r="4" fill="#c8a96e"/>
+    <circle cx="1260" cy="220" r="2" fill="#c8a96e"/>
+    <circle cx="850"  cy="80"  r="2" fill="#c8a96e"/>
+  </g>
+  <g stroke="rgba(200,169,110,0.15)" stroke-width="1">
+    <line x1="980" y1="200" x2="1180" y2="350"/>
+    <line x1="980" y1="200" x2="1100" y2="100"/>
+    <line x1="980" y1="200" x2="800"  y2="320"/>
+    <line x1="980" y1="200" x2="1260" y2="220"/>
+    <line x1="980" y1="200" x2="850"  y2="80"/>
+    <line x1="1100" y1="100" x2="1260" y2="220"/>
+    <line x1="1180" y1="350" x2="800"  y2="320"/>
+  </g>
+
+  <!-- Diagonal accent line -->
+  <line x1="0" y1="900" x2="900" y2="0" stroke="rgba(200,169,110,0.04)" stroke-width="1"/>
+  <line x1="600" y1="900" x2="1440" y2="300" stroke="rgba(200,169,110,0.03)" stroke-width="1"/>
+
+  <!-- Bottom gradient fade -->
+  <defs>
+    <linearGradient id="fadeBtm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#090909" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#090909" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="900" fill="url(#fadeBtm)"/>
+</svg>

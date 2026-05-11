@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Disallow admin or private paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /*.json$
+
+# Allow CSS and JS for rendering
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Crawl-delay (optional, remove if not needed)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://www.bingjutech.com/sitemap.xml
